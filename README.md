@@ -8,8 +8,8 @@ The app is designed to experiment the Will Rogers Paradox in a user-friendly man
 Note:
 
 * First, the values for Group A and Group B should be selected from the drop down menu. 
-* See the mean values of the two groups.  
-* Next, move one value from one group to another and see the change in the mean value. 
+* View the mean values of the two groups.  
+* Next, move a value from one group to another and see the changes in mean value. 
 * A message will be displayed stating whether the Will Rogers Paradox was satisfied or not. 
 * The users can change values and experiment several times.
 
