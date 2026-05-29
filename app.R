@@ -13,59 +13,74 @@ library(dplyr)
 ui <- fluidPage(
   # --- Custom Color Palette (Sepia + Vintage) ---
   tags$style(HTML("
-    body {
-      background-color: #f7f1e3;
-      color: #3b2f2f;
-      font-family: 'Georgia', serif;
-    }
-    h1, h2, h3, h4 {
-      color: #2e1c14;
-      font-weight: bold;
-    }
-    .title-box {
-      background-color: #3b2f2f;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      margin-bottom: 25px;
-    }
-    .title-box h1 {
-      color: #f7f1e3;
-    }
-    .well {
-      background-color: #f1e7d3;
-      border: 1px solid #b59f84;
-      border-radius: 10px;
-    }
-    .btn {
-      background-color: #3b2f2f !important;
-      color: #f7f1e3 !important;
-      border: none;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background-color: #5b4331 !important;
-    }
-    label {
-      color: #2e1c14;
-      font-weight: bold;
-    }
-    .selectize-input {
-      background-color: #f1e7d3;
-      color: #3b2f2f;
-    }
-    .message-box {
-      background-color: #f1e7d3;
-      border: 2px solid #3b2f2f;
-      border-radius: 10px;
-      padding: 15px;
-      margin-top: 15px;
-      text-align: center;
-      font-size: 18px;
-      font-weight: bold;
-      color: #2e1c14;
-    }
-  ")),
+  body {
+    background-color: #f5f5f5;
+    color: #1f1f1f;
+    font-family: 'Georgia', serif;
+  }
+
+  h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: bold;
+  }
+
+  .title-box {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .title-box h1 {
+    color: #f5f5f5;
+  }
+
+  .well {
+    background-color: #e0e0e0;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+  }
+
+  .btn {
+    background-color: #2b2b2b !important;
+    color: #ffffff !important;
+    border: none;
+    font-weight: bold;
+  }
+
+  .btn:hover {
+    background-color: #4a4a4a !important;
+  }
+
+  label {
+    color: #1f1f1f;
+    font-weight: bold;
+  }
+
+  .selectize-input {
+    background-color: #e6e6e6;
+    color: #1f1f1f;
+    border: 1px solid #bdbdbd;
+  }
+
+  .message-box {
+    background-color: #e0e0e0;
+    border: 2px solid #2b2b2b;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f1f1f;
+  }
+
+  a {
+    color: #1f1f1f;
+    text-decoration: underline;
+  }
+")),
   
   # --- Title Box ---
   tags$div(class = "title-box",
@@ -76,7 +91,7 @@ ui <- fluidPage(
     column(
       6,
       tags$img(
-        src = "Will_Rogers_Paradox_Image.webp",
+        src = "Will_Rogers_Paradox_Image.jpg",
         width = "100%",
         style = "max-height:350px; border-radius:10px; margin-bottom:15px;"
       )
