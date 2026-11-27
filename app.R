@@ -178,7 +178,16 @@ ui <- fluidPage(
         "Then move 25 from A to B to see the paradox."
       )
     )
-  )
+  ),
+  tags$div(
+    style = paste(
+      "text-align:center;",
+      "padding:20px;",
+      "color:#111111;",
+      "font-size:14px;"
+    ),
+    "The Curious World of Statistics | Exploring Paradoxes, Puzzles and Statistical Surprises."
+)
 )
 
 # --- SERVER ---
